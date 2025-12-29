@@ -11,6 +11,12 @@ To install the necessary requirements, run the following command:
 pip install deepseek-ocr-ollama
 ```
 
+To be used, [Ollama](https://ollama.com/download) is required and the deepseek-ocr model must be installed
+
+```sh
+ollama pull deepseek-ocr
+```
+
 ## Typical Usage
 
 ```sh

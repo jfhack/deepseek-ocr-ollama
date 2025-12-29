@@ -38,7 +38,7 @@ deepseek-ocr-ollama -j paper.json -m TEXT_NO_PAGES -n
 | -n | --no-json | do not write the JSON OCR response to a file. By default, the response is written |
 | -e | --load-dot-env | load the .env file from the current directory using [`python-dotenv`](https://pypi.org/project/python-dotenv/), to retrieve the Ollama environment variables |
 | -E LOAD_PATH_DOT_ENV | --load-path-dot-env LOAD_PATH_DOT_ENV | load the .env file from the specified path using [`python-dotenv`](https://pypi.org/project/python-dotenv/), to retrieve the Ollama environment variables. Defaults to ~/.deepseek_ocr_ollama.env |
-| -M MODEL_NAME | --model-name MODEL_NAME | name of the Ollama model to use for OCR. Defaults to 'deepseek-ocr' |
+| -M MODEL_NAME | --model-name MODEL_NAME | name of the Ollama model to use for OCR. Defaults to [`deepseek-ocr`](https://ollama.com/library/deepseek-ocr) |
 | -H HINT | --hint HINT | hint to provide to the OCR model to improve recognition accuracy. Ignored if raw prompt is set. The hint is a short instruction that will be mixed in with the main prompt |
 | -R RAW_PROMPT | --raw-prompt RAW_PROMPT | raw prompt to provide to the OCR model, overriding the default prompt. Hint is ignored if this is set |
 | -V VERBOSE | --verbose VERBOSE | verbosity level: 0 = silent, 1 = normal, 2 = debug. Defaults to 1 |

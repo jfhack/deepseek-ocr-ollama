@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
   name="deepseek-ocr-ollama",
-  version="1.0",
+  version="1.1",
   packages=find_packages(),
   entry_points={
     'console_scripts': [
@@ -18,7 +18,8 @@ setup(
     'ollama',
     'pymupdf',
     'python-dotenv',
-    'tqdm'
+    'tqdm',
+    'Pillow'
   ],
   long_description=long_description,
   long_description_content_type="text/markdown"

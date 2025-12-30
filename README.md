@@ -1,5 +1,5 @@
-# Deepseek OCR Ollama
-This is a simple script that uses the Ollama API to get the Markdown text from a PDF or image file from the [Deepseek-OCR](https://arxiv.org/pdf/2510.18234) model
+# DeepSeek OCR Ollama
+This is a simple script that uses the Ollama API to get the Markdown text from a PDF or image file from the [DeepSeek-OCR](https://arxiv.org/pdf/2510.18234) model
 
 # Usage
 
@@ -148,7 +148,7 @@ paper
 └── paper.md
 ```
 
-By default, the JSON response from the Deepseek OCR model is saved in the output directory. To disable JSON output, use the `-n` or `--no-json` argument. To experiment with a different **mode** without using additional calls, reuse an existing JSON response instead of the original input file
+By default, the JSON response from the DeepSeek-OCR model is saved in the output directory. To disable JSON output, use the `-n` or `--no-json` argument. To experiment with a different **mode** without using additional calls, reuse an existing JSON response instead of the original input file
 
 ### Ollama's Environment Variables
 

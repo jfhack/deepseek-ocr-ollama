@@ -6,8 +6,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
   name="deepseek-ocr-ollama",
-  version="1.1",
+  version="1.2",
   packages=find_packages(),
+  description="A simple script that uses the Ollama API to get the Markdown text from a PDF or image file from the DeepSeek-OCR model",
   entry_points={
     'console_scripts': [
       'deepseek-ocr-ollama = deepseek_ocr_ollama.__main__:main',

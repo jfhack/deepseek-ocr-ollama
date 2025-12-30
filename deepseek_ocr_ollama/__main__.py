@@ -25,7 +25,7 @@ def main():
     '%(prog)s -j paper.json -m TEXT_NO_PAGES -n\n'
   )
   parser = argparse.ArgumentParser(
-    description="A simple script that uses the Deepseek OCR model from Ollama API to get the Markdown text from a PDF or image file.",
+    description="A simple script that uses the DeepSeek-OCR model from Ollama API to get the Markdown text from a PDF or image file.",
     epilog=example_text,
     formatter_class=argparse.RawDescriptionHelpFormatter
   )

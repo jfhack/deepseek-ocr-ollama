@@ -19,7 +19,7 @@ setup(
     'pymupdf',
     'python-dotenv',
     'tqdm',
-    'Pillow'
+    'pillow'
   ],
   long_description=long_description,
   long_description_content_type="text/markdown"

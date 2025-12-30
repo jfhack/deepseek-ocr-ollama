@@ -2,4 +2,4 @@ ollama
 pymupdf
 python-dotenv
 tqdm
-Pillow
+pillow

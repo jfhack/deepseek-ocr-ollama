@@ -1,5 +1,5 @@
 # DeepSeek OCR Ollama
-This is a simple script that uses the Ollama API to get the Markdown text from a PDF or image file from the [DeepSeek-OCR](https://arxiv.org/pdf/2510.18234) model
+This is a simple script that uses the Ollama API to get the Markdown text from a PDF or image file using the [DeepSeek-OCR](https://arxiv.org/pdf/2510.18234) model
 
 # Usage
 
